@@ -6,7 +6,10 @@ My Mission is to help people learn new features every day. This project will use
 
 ## Quick Start Install
 Make sure you've installed Node.js - I recommend the latest Node v0.10.x release.
+
 Several quick start options are available:
+
+
 1. Download
   + [Download the latest release](https://github.com/nikolenkoanton92/front-end-helper/archive/master.zip).
   + Clone the repo: git clone https://github.com/nikolenkoanton92/front-end-helper.git
@@ -15,6 +18,7 @@ Several quick start options are available:
 5. Start Front-End Helper:
   + `npm start`
   + `node ./bin/www`
+
 
 ## Bug Reports
 Report [here](https://github.com/nikolenkoanton92/front-end-helper/issues)
