@@ -15,7 +15,8 @@ Several quick start options are available:
   + Clone the repo: git clone https://github.com/nikolenkoanton92/front-end-helper.git
 3. Fire up a terminal
 4. `npm install`
-5. Start Front-End Helper:
+5. I use the default template, Jade. If you would like to use the Handlebars template, you should input in the command line `TEMPLATE='hbs' && node ./bin/www`
+6. Start Front-End Helper:
   + `npm start`
   + `node ./bin/www`
 
