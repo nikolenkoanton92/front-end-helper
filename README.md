@@ -8,13 +8,13 @@ My Mission is to help people learn new features every day. This project will use
 Make sure you've installed Node.js - I recommend the latest Node v0.10.x release.
 Several quick start options are available:
 1. Download
-  1. [Download the latest release](https://github.com/nikolenkoanton92/front-end-helper/archive/master.zip).
-  2. Clone the repo: git clone https://github.com/nikolenkoanton92/front-end-helper.git
+  + [Download the latest release](https://github.com/nikolenkoanton92/front-end-helper/archive/master.zip).
+  + Clone the repo: git clone https://github.com/nikolenkoanton92/front-end-helper.git
 3. Fire up a terminal
-4. `npm install
+4. `npm install`
 5. Start Front-End Helper:
-  1. `npm start
-  2. `node ./bin/www
+  + `npm start`
+  + `node ./bin/www`
 
 ## Bug Reports
 Report [here](https://github.com/nikolenkoanton92/front-end-helper/issues)
