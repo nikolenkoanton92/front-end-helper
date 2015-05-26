@@ -7,7 +7,9 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/tabs', function(req, res, next) {
-  res.render('tabs/tabs');
+  res.render('tabs/tabs', {
+    layout: '/tabs/layout'
+  });
 });
 
 router.get('/tabs/chrome-tabs', function(req, res) {

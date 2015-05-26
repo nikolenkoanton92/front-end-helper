@@ -11,8 +11,21 @@ html
     link(rel='stylesheet', href='/stylesheets/tabs/style.css')
     link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
   body
+    nav.navbar.navbar-default.navbar-fixed-top
+      .container
+        .navbar-header
+          button(type='button' data-toggle='collapse' data-target='#front-end-helper-navbar' aria-expanded='false').navbar-toggle.collapsed
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a(href='/' title='Front-End Helper').navbar-brand Front-End Helper
+        .navbar-collapse.collapse#front-end-helper-navbar
+          ul.nav.navbar-nav.navbar-right
+            li
+              a(href='/' title='Home Page') Home Page
+            li
+              a(href='/#contact') Contact
     block content
-
     footer.footer
       #contact
         .container
