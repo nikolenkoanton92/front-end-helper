@@ -10,8 +10,10 @@ router.get('/tabs', function(req, res, next) {
   res.render('tabs/tabs');
 });
 
-router.get('/tabs/chrome-like-tabs', function(req, res, next) {
-  res.render('tabs/chrome-like-tabs/chrome-like-tabs');
+router.get('/tabs/chrome-tabs', function(req, res) {
+  res.render('tabs/chrome-tabs/chrome-tabs', {
+    layout: '/tabs/chrome-tabs/layout'
+  });
 });
 
 module.exports = router;

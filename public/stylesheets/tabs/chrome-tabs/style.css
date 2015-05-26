@@ -14,8 +14,6 @@
   border-radius: 4px 4px 0 0;
   height: 33px;
   overflow: hidden;
-  min-width: 300px;
-
 }
 .chrome-tabs-shell .chrome-shell-bottom-bar {
   position: absolute;
@@ -70,8 +68,6 @@
   line-height: 13px;
 }
 .chrome-tabs .chrome-tab {
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
   float: left;
   position: relative;
   height: 25px;
@@ -110,10 +106,10 @@
   -webkit-mask-size: 100%;
 }
 .chrome-tabs .chrome-tab .chrome-tab-curves-left, .chrome-tabs .chrome-tab .chrome-tab-curves-left-highlight, .chrome-tabs .chrome-tab .chrome-tab-curves-left-shadow {
-  -webkit-mask-image: url("../svg/tab-left.svg");
+  -webkit-mask-image: url("/images/tabs/chrome-tabs/tab-left.svg");
 }
 .chrome-tabs .chrome-tab .chrome-tab-curves-right, .chrome-tabs .chrome-tab .chrome-tab-curves-right-highlight, .chrome-tabs .chrome-tab .chrome-tab-curves-right-shadow {
-  -webkit-mask-image: url("../svg/tab-right.svg");
+  -webkit-mask-image: url("/images/tabs/chrome-tabs/tab-right.svg");
 }
 .chrome-tabs .chrome-tab .chrome-tab-curves-left, .chrome-tabs .chrome-tab .chrome-tab-curves-right {
   top: 1px;
