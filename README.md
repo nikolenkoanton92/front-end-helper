@@ -20,6 +20,9 @@ Several quick start options are available:
   + `npm start`
   + `node ./bin/www`
 
+## Content
+
++ [Tabs](https://github.com/nikolenkoanton92/front-end-helper/tree/master/views/tabs)
 
 ## Bug Reports
 Report [here](https://github.com/nikolenkoanton92/front-end-helper/issues)
