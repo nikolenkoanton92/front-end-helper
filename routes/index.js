@@ -12,4 +12,10 @@ router.get('/tabs', function(req, res, next) {
   });
 });
 
+router.get('/animation', function(req, res, next) {
+  res.render('animation/animation', {
+    layout: '/animation/layout'
+  });
+});
+
 module.exports = router;
