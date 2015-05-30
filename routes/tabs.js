@@ -7,4 +7,10 @@ router.get('/chrome-tabs', function(req, res) {
   });
 });
 
+router.get('/tabs-widget', function(req, res) {
+  res.render('/tabs/tabs-widget/tabs-widget', {
+    layout: '/tabs/tabs-widget/layout'
+  });
+});
+
 module.exports = router;
