@@ -1,0 +1,36 @@
+doctype html
+html
+  head
+    title Front-End Helper
+    meta(charset='utf8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(name='description', content='Front-End Helper')
+    meta(name='author', content='Anton Nikolenko')
+    meta(name='keywords', content='html,js,javascript')
+    link(rel='stylesheet', href='/stylesheets/animation/style.css')
+    link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
+  body
+    nav.navbar.navbar-default.navbar-fixed-top
+      .container
+        .navbar-header
+          button(type='button' data-toggle='collapse' data-target='#front-end-helper-navbar' aria-expanded='false').navbar-toggle.collapsed
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a(href='/' title='Front-End Helper').navbar-brand Front-End Helper
+        .navbar-collapse.collapse#front-end-helper-navbar
+          ul.nav.navbar-nav.navbar-right
+            li
+              a(href='/' title='Home Page') Home Page
+            li
+              a(href='/#contact') Contact
+    block content
+    footer.footer
+      #contact
+        .container
+          h2.text-center Need Help or have cool material?
+          h2.text-center
+            a(href='mailto:nikolenkoanton92@gmail.com') nikolenkoanton92@gmail.com
+    script(src='/javascripts/jquery.js')
+    script(src='/javascripts/bootstrap.min.js')

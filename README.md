@@ -23,7 +23,7 @@ Several quick start options are available:
 ## Content
 
 + [Tabs](https://github.com/nikolenkoanton92/front-end-helper/tree/master/views/tabs)
-
++ [Animation](https://github.com/nikolenkoanton92/front-end-helper/tree/master/views/animation)
 ## Bug Reports
 Report [here](https://github.com/nikolenkoanton92/front-end-helper/issues)
 
