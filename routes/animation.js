@@ -7,4 +7,10 @@ router.get('/animation-menu', function(req, res) {
   });
 });
 
+router.get('/alternative-js-clock', function(req, res) {
+  res.render('animation/alternative-js-clock/alternative-js-clock', {
+    layout: '/animation/alternative-js-clock/layout'
+  });
+});
+
 module.exports = router;
