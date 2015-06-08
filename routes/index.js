@@ -18,4 +18,10 @@ router.get('/animation', function(req, res, next) {
   });
 });
 
+router.get('/elements', function(req, res, next) {
+  res.render('elements/elements', {
+    layout: '/elements/layout'
+  });
+});
+
 module.exports = router;
