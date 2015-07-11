@@ -7,4 +7,10 @@ router.get('/macbook-pro', function(req, res) {
   });
 });
 
+router.get('/directional-arrows', function(req, res) {
+  res.render('elements/directional-arrows/index', {
+    layout: '/elements/directional-arrows/layout'
+  });
+});
+
 module.exports = router;

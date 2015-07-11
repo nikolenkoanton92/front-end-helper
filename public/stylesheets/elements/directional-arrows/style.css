@@ -1,0 +1,252 @@
+*,*::before,*::after{
+  box-sizing: border-box;
+}
+
+body{
+  font-size:1em;
+  background: #eee;
+}
+
+*::before,
+*::after{
+  position: absolute;
+  content:'';
+  display: block;
+}
+
+/* Used only as a container */
+.arrow-wrapper{
+  /* Change this to adjust sizes */
+  font-size: 0.9rem;
+  height: 5.4em;
+  width: 5.4em;
+  background: #4CAF50;
+  position: relative;
+  margin: 1em 0 0 1em;
+  float: left;
+  border-radius: 50%;
+  border: 0.3em solid #fff;
+  box-shadow:0 8px 8px -6px rgba(0,0,0,0.5);
+}
+
+.arrow{
+  position: relative;
+  color: transparent;
+}
+
+.arrow::after{
+  border-width: 1em 0.8em;
+  border-color: transparent transparent #fff transparent;
+  border-style: solid;
+}
+
+/* Start Styles */
+
+/* Straight */
+#arrow-up{
+  width: 0.4em;
+  height: 2.6em;
+  width: 0.4em;
+  background: #fff;
+  left: 0;
+  right: 0;
+  top: 1.5em;
+  margin: 0 auto;
+}
+
+#arrow-up::after{
+  top: -1.8em;
+  left: -0.56em;
+}
+
+/* Right */
+#arrow-right{
+  width: 1.4em;
+  height: 2.4em;
+  left: 1.6em;
+  top: 1.5em;
+  border-top: 0.4em solid #fff;
+  border-left: 0.4em solid #fff;
+  border-radius: 1em 0 0 0/1em 0 0 0;
+}
+
+#arrow-right::after{
+  left: 1.2em;
+  top: -1.1em;
+  transform: rotate(90deg);
+}
+
+/* Slight Right */
+#arrow-right-up{
+  width: 2em;
+  height: 2.4em;
+  left: 2em;
+  top: 1.5em;
+  border-top: 0.4em solid transparent;
+  border-left: 0.4em solid #fff;
+  border-radius: 1em 0 0 0/1em 0 0 0;
+}
+
+#arrow-right-up::after{
+  left: 0.34em;
+  top: -2em;
+  transform: rotate(44deg);
+}
+
+#arrow-right-up::before{
+  width: 0.35em;
+  height: 1em;
+  background: #fff;
+  top: -0.82em;
+  left: 0.19em;
+  transform: rotate(44deg);
+}
+
+/* Right Down */
+#arrow-right-down{
+  height: 2.4em;
+  left: 1.2em;
+  top: 1em;
+  border-top: 0.4em solid transparent;
+  border-left: 0.4em solid #fff;
+  border-radius: 1.4em 0 0 0/1em 0 0 0;
+}
+
+#arrow-right-down::after{
+  left: 1.5em;
+  top: 1.1em;
+  transform: rotate(140deg);
+}
+
+#arrow-right-down::before{
+  transform: rotate(140deg);
+  width: 0.7em;
+  height: 2.4em;
+  left: 0.6em;
+  top: -0.3em;
+  border-bottom: 0.4em solid #fff;
+  border-left: 0.4em solid #fff;
+  border-radius: 0 0 0 1em/0 0 0 1em;
+}
+
+/* Left */
+#arrow-left{
+  width: 1.4em;
+  height: 2.4em;
+  left: 1.9em;
+  top: 1.5em;
+  border-top: 0.4em solid #fff;
+  border-right: 0.4em solid #fff;
+  border-radius: 0 1em 0 0/0 1em 0 0;
+}
+
+#arrow-left::after{
+  right: 1.2em;
+  top: -1.1em;
+  transform: rotate(-90deg);
+}
+
+/* Slight Left */
+#arrow-left-up{
+  width: 2em;
+  height: 2.4em;
+  left: 1em;
+  top: 1.5em;
+  border-top: 0.4em solid transparent;
+  border-right: 0.4em solid #fff;
+  border-radius: 0 1em 0 0/0 1em 0 0;
+}
+
+#arrow-left-up::after{
+  left: -0.34em;
+  top: -2em;
+  transform: rotate(-44deg);
+}
+
+#arrow-left-up::before{
+  width: 0.35em;
+  height: 1em;
+  background: #fff;
+  top: -0.82em;
+  right: 0.22em;
+  transform: rotate(-44deg);
+}
+
+/* Left Down */
+#arrow-left-down{
+  height: 2.4em;
+  right: 1.2em;
+  top: 1em;
+  border-top: 0.4em solid transparent;
+  border-right: 0.4em solid #fff;
+  border-radius: 0 1.4em 0 0 /0 1em 0 0;
+}
+
+#arrow-left-down::after{
+  left: 1.4em;
+  top: 1.1em;
+  transform: rotate(-140deg);
+}
+
+#arrow-left-down::before{
+  transform: rotate(-140deg);
+  width: 0.7em;
+  height: 2.4em;
+  right: 0.6em;
+  top: -0.5em;
+  border-bottom: 0.4em solid #fff;
+  border-right: 0.4em solid #fff;
+  border-radius: 0 0 1em 0 /0 0 1em 0 ;
+}
+
+/* Left U */
+#arrow-u-left{
+  width: 2em;
+  height: 2em;
+  left: 1.4em;
+  top: 0.8em;
+  border-top: 0.4em solid #fff;
+  border-right: 0.4em solid #fff;
+  border-left: 0.4em solid #fff;
+  border-radius: 1.4em 1.4em 0 0/1.4em 1.4em 0 0;
+}
+
+#arrow-u-left::after{
+  left: -0.96em;
+  bottom: -1.9em;
+  transform: rotate(180deg);
+}
+
+#arrow-u-left::before{
+  width: 0.34em;
+  height: 1em;
+  background: #fff;
+  right: -0.34em;
+  bottom: -1em;
+}
+
+/* Right U */
+#arrow-u-right{
+  width: 2em;
+  height: 2em;
+  left: 1.4em;
+  top: 0.8em;
+  border-top: 0.4em solid #fff;
+  border-right: 0.4em solid #fff;
+  border-left: 0.4em solid #fff;
+  border-radius: 1.4em 1.4em 0 0/1.4em 1.4em 0 0;
+}
+
+#arrow-u-right::after{
+  right: -0.9em;
+  bottom: -1.9em;
+  transform: rotate(180deg);
+}
+
+#arrow-u-right::before{
+  width: 0.34em;
+  height: 1em;
+  background: #fff;
+  left: -0.34em;
+  bottom: -1em;
+}
