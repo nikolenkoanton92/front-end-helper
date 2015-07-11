@@ -13,4 +13,10 @@ router.get('/alternative-js-clock', function(req, res) {
   });
 });
 
+router.get('/reloj', function(req, res) {
+  res.render('animation/reloj/index', {
+    layout: '/animation/reloj/layout'
+  });
+});
+
 module.exports = router;
