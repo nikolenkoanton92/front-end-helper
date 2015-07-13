@@ -19,4 +19,10 @@ router.get('/reloj', function(req, res) {
   });
 });
 
+router.get('/sliding-radio-button-menu', function(req, res) {
+  res.render('animation/sliding-radio-button-menu/index', {
+    layout: '/animation/sliding-radio-button-menu/layout'
+  });
+});
+
 module.exports = router;
