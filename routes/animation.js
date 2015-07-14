@@ -25,4 +25,10 @@ router.get('/sliding-radio-button-menu', function(req, res) {
   });
 });
 
+router.get('/animate-timer', function(req, res) {
+  res.render('animation/animate-timer/index', {
+    layout: '/animation/animate-timer/layout'
+  });
+});
+
 module.exports = router;

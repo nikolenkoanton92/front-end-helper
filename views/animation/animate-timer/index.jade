@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  time
+    .clock
+      .dial-container.dial-container--hh.js-clock(data-cur="9", data-start="0", data-end="12", data-dur="hh")
+      .dial-container.dial-container--mm.js-clock(data-cur="2", data-start="0", data-end="5", data-dur="mm")
+      .dial-container.dial-container--m.js-clock(data-cur="3", data-start="0", data-end="9", data-dur="m")
+      .dial-container.dial-container--ss.js-clock(data-cur="4", data-start="0", data-end="5", data-dur="ss")
+      .dial-container.dial-container--s.js-clock(data-cur="8", data-start="0", data-end="9", data-dur="s")
