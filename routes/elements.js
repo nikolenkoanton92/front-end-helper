@@ -13,4 +13,10 @@ router.get('/directional-arrows', function(req, res) {
   });
 });
 
+router.get('/shaped-title', function(req, res) {
+  res.render('elements/shaped-title/index', {
+    layout: '/elements/shaped-title/layout'
+  });
+});
+
 module.exports = router;

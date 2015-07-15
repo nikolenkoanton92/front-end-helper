@@ -1,0 +1,62 @@
+body {
+  margin: 6vw auto;
+  width: 80%;
+  text-align: center;
+}
+.shape {
+  font-family: 'playball', cursive;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  padding: 20px 50px;
+  margin-bottom: 6px;
+  min-height: 60px;
+  width: auto;
+  display: inline-block;
+  color: #fff;
+  font-size: 10vw;
+  line-height: 1.5;
+  -webkit-transform: skew(0deg, -3deg);
+  -ms-transform: skew(0deg, -3deg);
+  transform: skew(0deg, -3deg);
+  transition: all .5s;
+  white-space: nowrap;
+}
+@media screen and (min-width: 370px) {
+  .shape {
+    font-size: 12vw;
+  }
+}
+@media screen and (min-width: 768px) {
+  .shape {
+    font-size: 100px;
+  }
+}
+.shape:before {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 80%;
+  background: #dd4f00;
+  border-radius: 12px;
+  -webkit-transform: skew(10deg);
+  -ms-transform: skew(10deg);
+  transform: skew(10deg);
+}
+.shape:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 40%;
+  background: #dd4f00;
+  border-radius: 12px;
+  -webkit-transform: skew(-20deg);
+  -ms-transform: skew(-20deg);
+  transform: skew(-20deg);
+}
