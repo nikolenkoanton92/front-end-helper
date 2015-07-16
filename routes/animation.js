@@ -31,4 +31,10 @@ router.get('/animate-timer', function(req, res) {
   });
 });
 
+router.get('/thank-you-animation', function(req, res) {
+  res.render('animation/thank-you-animation/index', {
+    layout: '/animation/thank-you-animation/layout'
+  });
+});
+
 module.exports = router;
