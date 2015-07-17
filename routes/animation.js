@@ -37,4 +37,10 @@ router.get('/thank-you-animation', function(req, res) {
   });
 });
 
+router.get('/animating-gradient', function(req, res) {
+  res.render('animation/animating-gradient/index', {
+    layout: '/animation/animating-gradient/layout'
+  });
+});
+
 module.exports = router;
