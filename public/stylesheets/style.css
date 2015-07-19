@@ -18,3 +18,7 @@ a {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
+.space img{
+  border: 1px solid black;
+}
